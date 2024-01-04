@@ -48,7 +48,7 @@ export default function App() {
   return (
     <div className="main-container">
       <Background />
-      <BrowserRouter basename="/Pokedex">
+      <BrowserRouter basename="/react-pokedex">
         <Suspense fallback={<Loader />}>
           <div className="app">
             <Navbar />
